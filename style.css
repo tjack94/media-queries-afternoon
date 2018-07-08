@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://c.pxhere.com/photos/76/9e/gadgets_office_equipment_iphone_music_men's_purse_glasses-971375.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+}
+.list{
+    display: flex;
+    color: white;
+    
+}
+.list h3{
+    margin: 0 20px;
+}
+header h2{
+    margin: 0 50px
+}
+.body-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px
+}
+.tell-me-more{
+    height: 69px;
+    background-color: yellow;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px
+}
+.logo{
+    color: #fec503;
+   
+}
+h1,
+.welcome{
+    color: white;
+}
+h1{
+    font-size: 75px;
+    font-weight: bolder;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.welcome{
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+.container {
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+@media (min-width: 950px ){
+    .container{
+        width: 900px;
+        padding: 0;
+    }
+    header{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .list{
+        margin: 45px
+    }
+    .logo{
+        margin: 45px 100px;
+    }
+}
